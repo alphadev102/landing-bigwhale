@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e900d161.css",
+    "main.js": "/static/js/main.7b8061c1.js",
+    "static/js/787.1c74ff5b.chunk.js": "/static/js/787.1c74ff5b.chunk.js",
+    "static/media/step1.png": "/static/media/step1.b12f9630e773d622ef7d.png",
+    "static/media/arbitrage.png": "/static/media/arbitrage.1aee9115d529bd2f957f.png",
+    "static/media/contact.png": "/static/media/contact.c0c632879fd3dc1ca322.png",
+    "static/media/step3.png": "/static/media/step3.aeac4930c03feafec8a7.png",
+    "static/media/main.png": "/static/media/main.21b8df0c4a8529ab8021.png",
+    "static/media/step2.png": "/static/media/step2.edca96345caccbe16958.png",
+    "static/media/step4.png": "/static/media/step4.5ea3ed70680e7ac43b95.png",
+    "static/media/how-can-i-join.png": "/static/media/how-can-i-join.d4ba33f80922c848649a.png",
+    "static/media/Mulish.ttf": "/static/media/Mulish.d8a9a18cece4ed88ac76.ttf",
+    "static/media/kazahstan.svg": "/static/media/kazahstan.611862640993974aeaee42b78dc494eb.svg",
+    "static/media/logoWithText.png": "/static/media/logoWithText.35878bd354916271f819.png",
+    "static/media/portugal.svg": "/static/media/portugal.0164fc5ef3bb7356c7c893694aecee9a.svg",
+    "static/media/soon.svg": "/static/media/soon.bced0d41e6ae0394c8c28be6f2d43f57.svg",
+    "static/media/india.svg": "/static/media/india.35c9913be5208bea891576585b33722c.svg",
+    "static/media/china.svg": "/static/media/china.be83b8218c8c5409def2bcad031d35d3.svg",
+    "static/media/WeChat logo.svg": "/static/media/WeChat logo.7c04501eeef1917af94d5e88d866b657.svg",
+    "static/media/Notion logo.svg": "/static/media/Notion logo.2435141aa5a47d3ccf8bd8f8d15f4178.svg",
+    "static/media/discordapp logo.svg": "/static/media/discordapp logo.c97a0c6f1d66ba375ab8964979831946.svg",
+    "static/media/greatbritan.svg": "/static/media/greatbritan.a0c90762325bacd4c4ace22821c20e6a.svg",
+    "static/media/youtube header logo.svg": "/static/media/youtube header logo.b40fce09c7448671983a4ffc4cb80477.svg",
+    "static/media/telegram logo.svg": "/static/media/telegram logo.fab028fd38084d2e489a09e9c3bcc734.svg",
+    "static/media/menu.svg": "/static/media/menu.11c9204ba6bf00b0a92b15fd181d286f.svg",
+    "index.html": "/index.html",
+    "static/media/close.svg": "/static/media/close.126c72c7f06b276417bd2a17846d2e30.svg",
+    "static/media/russia.svg": "/static/media/russia.517a2334d4cadd7879d5ce44b565d410.svg",
+    "static/media/plus.svg": "/static/media/plus.529ba6549df5ee6b1eab58f14e4a32ad.svg",
+    "static/media/minus.svg": "/static/media/minus.f6c3ad9c8c64660997f7402d0f9df0fd.svg",
+    "main.e900d161.css.map": "/static/css/main.e900d161.css.map",
+    "main.7b8061c1.js.map": "/static/js/main.7b8061c1.js.map",
+    "787.1c74ff5b.chunk.js.map": "/static/js/787.1c74ff5b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e900d161.css",
+    "static/js/main.7b8061c1.js"
+  ]
+}
