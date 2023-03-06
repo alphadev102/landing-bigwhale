@@ -1,0 +1,87 @@
+{
+  "name": "onboard-notify-react",
+  "version": "0.34.3",
+  "dependencies": {
+    "@rainbow-me/kit-modal": "^0.0.25",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    
+    "@web3-react/core": "^6.1.9",
+    "@web3modal/ethereum": "^2.1.1",
+    "@web3modal/react": "^2.1.1",
+    "bnc-onboard": "^1.39.1",
+    "ethers": "5",
+    "i18next": "22.4.9",
+    "i18next-browser-languagedetector": "7.0.1",
+    "i18next-http-backend": "2.1.1",
+    "js-cookie": "3.0.1",
+    "path-browserify": "^1.0.1",
+    "react": "^18.2.0",
+    "react-cookie-consent": "8.0.1",
+    "react-countdown": "^2.3.5",
+    "react-dom": "^18.2.0",
+    "react-hot-toast": "2.4.0",
+    "react-i18next": "12.1.4",
+    "react-modal": "^3.16.1",
+    "react-redux": "^8.0.5",
+    "react-router-dom": "^6.8.0",
+    "react-scripts": "5.0.1",
+    "redux": "^4.2.1",
+    "schedular": "0.0.1",
+    "smoothscroll-polyfill": "0.4.4",
+    "stream": "^0.0.2",
+    "styled-components": "^5.3.6",
+    "typescript": "^4.9.5",
+    "universal-cookie": "4.0.4",
+    "vconsole": "^3.3.4",
+    "wagmi": "^0.11.7",
+    "web-vitals": "^3.1.1",
+    "web3": "^1.8.2"
+  },
+  "scripts": {
+    "setup-staging-w3o-env": "yarn upgrade '@web3-onboard/coinbase@next' '@web3-onboard/fortmatic@next' '@web3-onboard/gnosis@next' '@web3-onboard/injected-wallets@next' '@web3-onboard/keepkey@next' '@web3-onboard/keystone@next' '@web3-onboard/ledger@next' '@web3-onboard/magic@next' '@web3-onboard/portis@next' '@web3-onboard/react@next' '@web3-onboard/torus@next' '@web3-onboard/trezor@next' '@web3-onboard/walletconnect@next'  '@web3-onboard/web3auth@next' '@web3-onboard/gas@next' '@web3-onboard/dcent@next' '@web3-onboard/sequence@next' '@web3-onboard/enkrypt@next' '@web3-onboard/mew-wallet@next' '@web3-onboard/uauth@next' '@web3-onboard/zeal@next'",
+    "setup-prod-w3o-env": "yarn add '@web3-onboard/coinbase' '@web3-onboard/fortmatic' '@web3-onboard/gnosis' '@web3-onboard/injected-wallets' '@web3-onboard/keepkey' '@web3-onboard/keystone' '@web3-onboard/ledger' '@web3-onboard/magic' '@web3-onboard/portis' '@web3-onboard/react' '@web3-onboard/torus' '@web3-onboard/trezor' '@web3-onboard/walletconnect' '@web3-onboard/web3auth' '@web3-onboard/gas' '@web3-onboard/dcent' '@web3-onboard/sequence' '@web3-onboard/enkrypt' '@web3-onboard/mew-wallet' '@web3-onboard/uauth' '@web3-onboard/zeal' '@web3-onboard/frontier' --latest",
+    "start": "react-app-rewired --max_old_space_size=4096 start",
+    "start-staging": "REACT_APP_API_URL=wss://staging.api.blocknative.com/v0 REACT_APP_STAGING=true HTTPS=true HTTPS=true react-scripts start",
+    "start-local": "REACT_APP_API_URL=ws://localhost:54100/v0 REACT_APP_STAGING=true HTTPS=true react-scripts start",
+    "build": "react-app-rewired --max_old_space_size=4096 build",
+    "build-staging": "REACT_APP_API_URL=wss://staging.api.blocknative.com/v0 REACT_APP_STAGING=true react-app-rewired build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/jest": "^27.5.2",
+    "@types/node": "^18.7.13",
+    "@types/react": "^18.0.17",
+    "@types/react-dom": "^18.0.6",
+    "assert": "^2.0.0",
+    "buffer": "^6.0.3",
+    "crypto-browserify": "^3.12.0",
+    "https-browserify": "^1.0.0",
+    "os-browserify": "^0.3.0",
+    "prettier": "^2.0.5",
+    "process": "^0.11.10",
+    "react-app-rewired": "^2.2.1",
+    "react-scripts": "5.0.1",
+    "stream-browserify": "^3.0.0",
+    "stream-http": "^3.2.0",
+    "url": "^0.11.0",
+    "webpack-bundle-analyzer": "^4.6.1"
+  }
+}

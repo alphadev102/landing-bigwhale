@@ -1,0 +1,146 @@
+.how {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.how .title {
+    font-size: 18px;
+    background: linear-gradient(to Right, #B4BBFE, #9C8BFE, #FFB9D9 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: fit-content;
+}
+
+.how_headertitle {
+    color: #fff;
+    background: linear-gradient(to Right, #B4BBFE, #9C8BFE, #FFB9D9 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: fit-content;
+    margin-bottom: 40px;
+}
+.how__wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 16px;
+    padding: 50px 0px;
+}
+
+.guide .title {
+    width: fit-content;
+    margin: 20px auto;
+}
+.how__step {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 25%;
+    box-sizing: border-box;
+
+    background: rgba(255, 255, 255, 0.29);
+    border: 1px solid #E7E7E7;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.05);
+    backdrop-filter: blur(23px);
+    /* Note: backdrop-filter has minimal browser support */
+    padding: 10px;
+    border-radius: 12px;
+}
+
+.how__step__title {
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 56px;
+    padding-top: 10px;
+}
+
+.how__step__img {
+    align-self: left;
+    height: 48px;
+    padding-top: 20px;
+    /*height: auto;*/
+    /*width: 100%;*/
+    width: auto;
+}
+
+.how__step__img_3 {
+    align-self: center;
+    /*height: 195px;*/
+    height: auto;
+    width: 80%;
+    /*width: auto;*/
+}
+
+.how__step__text {
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 32px;
+    color: #333333;
+}
+
+.how__step .text {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: #201F37;
+    margin: 2px;
+}
+
+@media (max-width: 800px) {
+    .how {
+        width: 100%;
+    }
+
+    .how__wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .how__step {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+
+    .how__step__title {
+        margin: 10px;
+        font-size: 22px;
+        line-height: 24px;
+    }
+
+    .how__step__text {
+        font-size: 17px;
+        line-height: 24px;
+    }
+
+    .how__step .text {
+        font-family: 'Public Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+        text-transform: capitalize;
+        color: #201F37;
+        margin: 2px;
+    }
+
+}
+
+.pink_link {
+    color: #fe3dce !important;
+}
+
+.pink_link:hover{
+    text-decoration: none;
+}

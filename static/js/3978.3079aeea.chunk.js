@@ -1,1 +1,0 @@
-(self.webpackChunkonboard_notify_react=self.webpackChunkonboard_notify_react||[]).push([[3978],{50522:function(){},66882:function(){}}]);

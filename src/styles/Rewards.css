@@ -1,0 +1,118 @@
+.reward {
+    background: rgba(24, 30, 39, 0.7);
+    border-radius: 10px;
+    align-items: center;
+    padding: 45px 50px;
+    gap: 40px;
+  
+  }
+  .rewards {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+  }
+  
+  .gradient_line {
+    background: linear-gradient(
+      123.51deg,
+      #2998c4 19.92%,
+      #9c3197 73.09%,
+      #f27735 126.26%
+    );
+    border-radius: 5px;
+    padding: 12px 7px;
+    position: relative;
+    max-height: 60px;
+  }
+  
+  .gradient_line label {
+    font-weight: 400;
+    font-size: 12px;
+    color: #ffffff;
+    position: absolute;
+    top: 60px;
+    right: 4px;
+  }
+  
+  .rewards h6 {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1.4;
+    margin: 0;
+  }
+  
+  .rewards p {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 1.2;
+  }
+  
+  .gradient_line .text {
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+  
+  .timeText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .reward hr {
+    background-color: #272727;
+    margin: 20px 0px;
+  }
+  .dots {
+    margin-top: 14px;
+  }
+  
+  .dots>p {
+    width: 6px;
+    height: 6px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: block;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  .your__rewards {
+    display: flex;
+    gap: 25px;
+    justify-content: space-between;
+  }
+  .your__rewards>div{
+    width: 50%;
+  }
+  .your__rewards>div>p{
+    font-weight: 400;
+  font-size: 17px;
+  line-height: 1.1;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 25px;
+    margin-bottom: 20px;
+  }
+  
+  @media (max-width: 976px) {
+    .reward {
+      padding: 45px 35px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .reward {
+      padding: 45px 16px;
+    }
+    .rewards {
+      flex-direction: column;
+    }
+  }
+  

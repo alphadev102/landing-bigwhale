@@ -1,0 +1,14 @@
+.faq {
+    width: 100%;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.faq__title {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

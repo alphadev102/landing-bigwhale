@@ -1,0 +1,38 @@
+.volume {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.volume__value {
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 80px;
+    margin: 0;
+}
+
+.volume__text {
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 32px;
+    color: #522AA9;
+    margin-top: 10px;
+}
+
+@media (max-width: 800px) {
+    .volume__value {
+        font-size: 32px;
+        line-height: 56px;
+    }
+
+    .volume__text {
+        font-size: 18px;
+        line-height: 32px;
+    }
+}

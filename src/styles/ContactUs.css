@@ -1,0 +1,39 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact__row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+}
+
+.contact__column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact__column > .btn__border {
+    margin-bottom: 5px;
+}
+
+.contact__img {
+    width: 212px;
+    height: 212px;
+}
+
+@media (max-width: 800px) {
+    .contact__row {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .contact__column {
+        width: 100%;
+    }
+}
