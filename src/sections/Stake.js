@@ -5,6 +5,7 @@ import {FAQ_LINK, LEARN_MORE, SUPPORT_LINK} from "../config/constants"
 import {useTranslation} from "react-i18next";
 import { GradientButton } from "../components/GradientButton";
 import { stakingContract } from "../config";
+import { useConnectWallet, useSetChain } from "@web3-onboard/react";
 import { getAllData, invest, leaveWhale, reinvest, withdraw } from "../hooks/getData";
 import { ethers } from "ethers";
 import ProgressCountdown from "../components/ProgressCountdown.tsx";

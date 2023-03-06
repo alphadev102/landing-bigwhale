@@ -8,6 +8,7 @@ import close from '../assets/svg/close.svg'
 import list from "../assets/svg/List.svg";
 import {GradientButton} from "./GradientButton";
 import SecondaryButton from "./SecondaryButton";
+import { useConnectWallet } from "@web3-onboard/react";
 import { useRefLink } from "../hooks/useRefLink";
 import { useTranslation } from "react-i18next";
 import { useWeb3Modal, useWeb3ModalTheme } from "@web3modal/react";

@@ -7,6 +7,7 @@ import Interests from "../assets/svg/Interests.svg";
 import Rewards from "../assets/svg/Rewards.svg";
 import { useSelector } from "react-redux";
 import { ethers } from "ethers";
+import { useConnectWallet } from "@web3-onboard/react";
 
 const Walletcards = styled.div`
     display: flex;

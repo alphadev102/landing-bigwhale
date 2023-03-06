@@ -6,6 +6,7 @@ import GradientInput, {GradientBox, GradientButton} from "../uiComponents/Gradie
 import Modal from "../components/Modal";
 import { useRefLink } from "../hooks/useRefLink";
 import { useTranslation } from "react-i18next";
+import { useConnectWallet } from "@web3-onboard/react";
 import { toast } from "react-hot-toast";
 import { ethers } from "ethers";
 import { fetchReferralData } from "../hooks/getData";

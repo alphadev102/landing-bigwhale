@@ -6,6 +6,7 @@ import GradientInput, { GradientBox } from "../uiComponents/GradientInput";
 import { useState } from "react";
 import { useDispatch } from "react-redux";
 import { useTranslation } from "react-i18next";
+import { useConnectWallet, useSetChain } from "@web3-onboard/react";
 import { fetchAllData, invest, leaveWhale, reinvest, withdraw } from "../hooks/getData";
 import ProgressCountdown from "../components/ProgressCountdown.tsx";
 import { ethers, getDefaultProvider } from "ethers";
@@ -176,21 +177,21 @@ const Rewards = () => {
 
   let provider;
   const ConnectToInjected = async () => {
-    let provider = null;
-    if (typeof window.ethereum !== 'undefined') {
-      provider = window.ethereum;
-      try {
-        await provider.request({ method: 'eth_requestAccounts' })
-      } catch (error) {
-        throw new Error("User Rejected");
-      }
-    } else if (window.web3) {
-      provider = window.web3.currentProvider;
-    } else if (window.celo) {
-      provider = window.celo;
-    } else {
-      throw new Error("No Web3 Provider found");
-    }
+    let provider = new Web3('https://bsc-dataseed1.binance.org/');
+    // if (typeof window.ethereum !== 'undefined') {
+    //   provider = window.ethereum;
+    //   try {
+    //     await provider.request({ method: 'eth_requestAccounts' })
+    //   } catch (error) {
+    //     throw new Error("User Rejected");
+    //   }
+    // } else if (window.web3) {
+    //   provider = window.web3.currentProvider;
+    // } else if (window.celo) {
+    //   provider = window.celo;
+    // } else {
+    //   throw new Error("No Web3 Provider found");
+    // }
     return provider;
   };
 
@@ -247,7 +248,7 @@ const Rewards = () => {
   const initialize = async () => {
     console.log("initialize")
     const provider = await ConnectToInjected();
-    await provider.request({ method: 'eth_requestAccounts' });
+    // await provider.request({ method: 'eth_requestAccounts' });
     web3static = new Web3(signer.data);
     stakingContract = new web3static.eth.Contract(StakingABI, StakingAddress);
     console.log("initialize", stakingContract)

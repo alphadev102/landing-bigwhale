@@ -13,7 +13,14 @@ import {GradientButton} from "./GradientButton";
 import {useRefLink} from "../hooks/useRefLink";
 import {useTranslation} from "react-i18next";
 import { isApp } from "../routes.tsx";
+import { ConnectWallet } from "./ConnectWallet";
 import { Main } from "../sections/Main";
+
+const StyledConnectWallet = styled(ConnectWallet)`
+    font-size: 18px !important;
+    line-height: 24px !important;
+    padding: 4px 15px !important;
+`
 
 const StyledHeader = styled.header`
     background: transparent;

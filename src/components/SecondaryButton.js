@@ -1,3 +1,4 @@
+import { useConnectWallet } from "@web3-onboard/react";
 import React from "react";
 import styled from "styled-components"
 
@@ -40,6 +41,7 @@ const StyledButton = styled.button`
 `
 
 const SecondaryButton = ({ text, onClick }) => {
+  const [{ wallet }, connect, disconnect, updateBalances, setWalletModules] = useConnectWallet()
   
  
   return (

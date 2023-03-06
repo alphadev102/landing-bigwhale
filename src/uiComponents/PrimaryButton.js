@@ -1,3 +1,4 @@
+import { useConnectWallet } from "@web3-onboard/react";
 import React from "react";
 import styled from 'styled-components'
 
